@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Global GS</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="bg-grid"></div>
+
+<nav class="fixed w-full top-0 left-0 flex justify-between p-6 text-sm z-50">
+  <div class="font-bold">Global GS</div>
+
+  <div class="flex gap-6">
+    <button onclick="setLang('it')">IT</button>
+    <button onclick="setLang('en')">EN</button>
+    <a href="index.html">HOME</a>
+  </div>
+</nav>
+
+<section>
+  <div class="text-center max-w-2xl reveal">
+
+    <h1 class="mb-8" data-i18n="contact_title"></h1>
+
+    <p class="mb-10 opacity-80" data-i18n="contact_text"></p>
+
+    <div class="flex flex-col gap-6">
+      <a class="btn" href="mailto:YOURMAIL@DOMAIN.COM" data-i18n="contact_mail"></a>
+
+      <a class="btn" href="https://mail.google.com/mail/?view=cm&fs=1&to=YOURMAIL@DOMAIN.COM" target="_blank" data-i18n="contact_gmail"></a>
+    </div>
+
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
