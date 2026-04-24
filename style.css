@@ -119,54 +119,6 @@ section {
   transform: translateY(-6px);
 }
 
-/* =========================
-   🔥 TYPOGRAPHY FIX DEFINITIVO
-========================= */
-
-h1 {
-  font-size: clamp(3rem, 7vw, 4.4rem);
-  font-weight: 750;
-  line-height: 1.05;
-  letter-spacing: -0.03em;
-}
-
-h2 {
-  font-size: clamp(2.3rem, 5.5vw, 3.2rem);
-  font-weight: 650;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
-}
-
-p {
-  font-size: clamp(1.1rem, 3.5vw, 1.25rem);
-  line-height: 1.8;
-  opacity: 0.92;
-}
-
-/* reset interferenze */
-h1, h2, p {
-  margin: 0;
-  font-family: inherit;
-}
-
-/* =========================
-   MOBILE HARD FIX (IMPORTANTE)
-========================= */
-
-@media (max-width: 768px) {
-
-  h1 {
-    font-size: 3.1rem;
-  }
-
-  h2 {
-    font-size: 2.4rem;
-  }
-
-  p {
-    font-size: 1.2rem;
-  }
-}
 
 /* =========================
    COUNTER
@@ -174,4 +126,34 @@ h1, h2, p {
 
 .counter {
   font-variant-numeric: tabular-nums;
+}
+
+/* =========================
+   TYPOGRAPHY FORCE FIX
+========================= */
+
+body h1 {
+  font-size: clamp(3rem, 8vw, 4.2rem) !important;
+  font-weight: 700 !important;
+  line-height: 1.05 !important;
+}
+
+body h2 {
+  font-size: clamp(2.4rem, 6vw, 3rem) !important;
+  font-weight: 600 !important;
+  line-height: 1.15 !important;
+}
+
+body p {
+  font-size: clamp(1.1rem, 3.5vw, 1.25rem) !important;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
 }

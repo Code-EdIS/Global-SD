@@ -20,6 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
       comm_title: "Comunicazione interna",
       comm_text: "Strumenti digitali che migliorano la collaborazione tra reparti, riducono i tempi decisionali e aumentano la coerenza operativa.",
       
+      contact_cta: "contattaci",
+      
       contact_title: "Contatto",
       contact_text: "Per richieste enterprise, integrazioni o collaborazioni puoi contattarci tramite i canali ufficiali sottostanti.",
       contact_mail: "Invia Email",
@@ -44,6 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
       
       comm_title: "Internal communication",
       comm_text: "Digital tools that improve collaboration between teams, reduce decision time and increase operational consistency.",
+      
+      contact_cta: "contact us",
       
       contact_title: "Contact",
       contact_text: "For enterprise requests, integrations or collaborations you can reach us through the official channels below.",
