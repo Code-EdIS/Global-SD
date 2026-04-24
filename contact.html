@@ -14,9 +14,9 @@
 <div class="bg-grid"></div>
 
 <nav class="fixed w-full top-0 left-0 flex justify-between p-6 text-sm z-50">
-  <div class="font-bold">Global GS</div>
+  <div class="font-bold tracking-wide">Global GS</div>
 
-  <div class="flex gap-6">
+  <div class="flex gap-6 items-center">
     <button onclick="setLang('it')">IT</button>
     <button onclick="setLang('en')">EN</button>
     <a href="index.html">HOME</a>
@@ -24,20 +24,83 @@
 </nav>
 
 <section>
-  <div class="text-center max-w-2xl reveal">
+  <div class="max-w-4xl w-full text-center reveal">
 
-    <h1 class="mb-8" data-i18n="contact_title"></h1>
+    <h1 class="mb-10" data-i18n="contact_title"></h1>
 
-    <p class="mb-10 opacity-80" data-i18n="contact_text"></p>
+    <p class="mb-16 opacity-80" data-i18n="contact_text"></p>
 
-    <div class="flex flex-col gap-6">
-      <a class="btn" href="mailto:YOURMAIL@DOMAIN.COM" data-i18n="contact_mail"></a>
+    <!-- GRID CONTATTI -->
+    <div class="grid md:grid-cols-2 gap-10 text-left">
 
-      <a class="btn" href="https://mail.google.com/mail/?view=cm&fs=1&to=YOURMAIL@DOMAIN.COM" target="_blank" data-i18n="contact_gmail"></a>
+      <!-- GENERALE -->
+<div class="card p-6 border border-black/10 rounded-xl">
+  <h2 class="mb-4 accent" data-i18n="contact_general"></h2>
+
+  <p class="mb-6 opacity-80" data-i18n="contact_general_text"></p>
+
+  <div class="flex flex-col gap-3">
+    <a class="btn w-fit" href="mailto:info@global-sd.net">
+      info@global-sd.net
+    </a>
+
+    <a 
+      class="text-sm opacity-70 hover:opacity-100 transition w-fit"
+      href="https://mail.google.com/mail/?view=cm&fs=1&to=info@global-sd.net"
+      target="_blank"
+      data-i18n="contact_gmail_general"
+    >
+    </a>
+  </div>
+</div>
+
+<!-- COMMERCIALE -->
+<div class="card p-6 border border-black/10 rounded-xl">
+  <h2 class="mb-4 accent" data-i18n="contact_business"></h2>
+
+  <p class="mb-6 opacity-80" data-i18n="contact_business_text"></p>
+
+  <div class="flex flex-col gap-3">
+    <a class="btn w-fit" href="mailto:commerciale@global-sd.net">
+      commerciale@global-sd.net
+    </a>
+
+    <a 
+      class="text-sm opacity-70 hover:opacity-100 transition w-fit"
+      href="https://mail.google.com/mail/?view=cm&fs=1&to=commerciale@global-sd.net"
+      target="_blank"
+      data-i18n="contact_gmail_business"
+    >
+    </a>
+  </div>
+</div>
+
+    </div>
+
+    <!-- TELEFONO -->
+    <div class="mt-16 text-center">
+      <h2 class="mb-4" data-i18n="contact_phone_title"></h2>
+
+      <p class="mb-6 opacity-80" data-i18n="contact_phone_text"></p>
+
+      <a href="tel:+393510951068" class="btn">
+        +39 351 095 1068
+      </a>
     </div>
 
   </div>
 </section>
+
+<footer class="w-full flex justify-between items-center p-6 text-sm border-t border-black/10 mt-20">
+  <div class="font-bold tracking-wide">Global GS</div>
+
+  <div class="flex gap-6 items-center">
+    <span class="status-dot">SYSTEM ACTIVE</span>
+    <button onclick="setLang('it')">IT</button>
+    <button onclick="setLang('en')">EN</button>
+    <a href="index.html">Home</a>
+  </div>
+</footer>
 
 <script src="script.js"></script>
 </body>

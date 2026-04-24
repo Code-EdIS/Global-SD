@@ -22,10 +22,16 @@ document.addEventListener("DOMContentLoaded", () => {
       
       contact_cta: "contattaci",
       
-      contact_title: "Contatto",
-      contact_text: "Per richieste enterprise, integrazioni o collaborazioni puoi contattarci tramite i canali ufficiali sottostanti.",
-      contact_mail: "Invia Email",
-      contact_gmail: "Apri Gmail"
+      contact_general: "Contatti generali",
+      contact_general_text: "Per informazioni generali, supporto tecnico o richieste non commerciali, puoi contattarci tramite questo indirizzo.",
+      contact_gmail_general: "Apri Gmail con destinatario precompilato",
+
+      contact_business: "Area commerciale",
+      contact_business_text: "Per collaborazioni, preventivi o richieste legate ai servizi aziendali, contatta direttamente il nostro reparto commerciale.",
+      contact_gmail_business: "Apri Gmail per richiesta commerciale",
+
+      contact_phone_title: "Contatto telefonico",
+      contact_phone_text: "Disponibile per comunicazioni dirette e richieste urgenti durante gli orari lavorativi.",
     },
     
     en: {
@@ -49,10 +55,16 @@ document.addEventListener("DOMContentLoaded", () => {
       
       contact_cta: "contact us",
       
-      contact_title: "Contact",
-      contact_text: "For enterprise requests, integrations or collaborations you can reach us through the official channels below.",
-      contact_mail: "Send Email",
-      contact_gmail: "Open Gmail"
+      contact_general: "General inquiries",
+      contact_general_text: "For general information, technical support or non-commercial requests, you can reach us at this address.",
+      contact_gmail_general: "Open Gmail with pre-filled recipient",
+
+      contact_business: "Business department",
+      contact_business_text: "For partnerships, quotes or service-related requests, contact our commercial department directly.",
+      contact_gmail_business: "Open Gmail for business inquiries",
+
+      contact_phone_title: "Phone contact",
+      contact_phone_text: "Available for direct communication and urgent requests during working hours.",
     }
   };
   
