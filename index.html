@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Global GS</title>
+  <title>Global SD</title>
 
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css">
@@ -14,7 +14,7 @@
 <div class="bg-grid"></div>
 
 <nav id="navbar" class="fixed w-full top-0 left-0 flex justify-between p-6 text-sm z-50">
-  <div class="font-bold tracking-wide">Global GS</div>
+  <div class="font-bold tracking-wide">Global SD</div>
 
   <div class="flex gap-6 items-center">
     <span id="status" class="status-dot">ONLINE</span>
@@ -23,65 +23,76 @@
   </div>
 </nav>
 
-<section>
-  <div class="text-center max-w-3xl">
-    <h1 class="hero-title reveal mb-6" data-i18n="hero_title"></h1>
-    <p class="hero-sub reveal mb-10" data-i18n="hero_sub"></p>
-    <a href="contact.html" class="btn reveal" data-i18n="hero_cta"></a>
-  </div>
-</section>
+<!-- WRAPPER PER IL LOGO IN SOTTOFONDO-->
 
-<section>
-  <div class="text-center">
-    <h2 class="reveal mb-14" data-i18n="numbers_title"></h2>
+<div id="wrapperLogo" class="flex flex-col overflow-hidden">
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-14">
-      <div class="card reveal">
-        <p class="text-5xl accent counter" data-target="250">0</p>
-        <p class="mt-3 opacity-80" data-i18n="num1"></p>
-      </div>
+  <img src="./assets/Logo.png" alt="logo" class="fixed z-[-50] opacity-20 blur-[1px]
+            left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
+            max-w-[70%] md:max-w-[40%]">
 
-      <div class="card reveal">
-        <p class="text-5xl accent counter" data-target="1200">0</p>
-        <p class="mt-3 opacity-80" data-i18n="num2"></p>
-      </div>
+  <!-- HERO SECTION -->
+  <section>
+    <div class="text-center max-w-3xl">
+      <h1 class="hero-title reveal mb-6" data-i18n="hero_title"></h1>
+      <p class="hero-sub reveal mb-10" data-i18n="hero_sub"></p>
+      <a href="contact.html" class="btn reveal" data-i18n="hero_cta"></a>
+    </div>
+  </section>
 
-      <div class="card reveal">
-        <p class="text-5xl accent counter" data-target="15">0</p>
-        <p class="mt-3 opacity-80" data-i18n="num3"></p>
+  <!-- OTHER SECTIONS -->
+
+  <section>
+    <div class="text-center">
+      <h2 class="reveal mb-14" data-i18n="numbers_title"></h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-14">
+        <div class="card reveal">
+          <p class="text-5xl accent counter" data-target="250">0</p>
+          <p class="mt-3 opacity-80" data-i18n="num1"></p>
+        </div>
+
+        <div class="card reveal">
+          <p class="text-5xl accent counter" data-target="1200">0</p>
+          <p class="mt-3 opacity-80" data-i18n="num2"></p>
+        </div>
+
+        <div class="card reveal">
+          <p class="text-5xl accent counter" data-target="15">0</p>
+          <p class="mt-3 opacity-80" data-i18n="num3"></p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section>
-  <div class="text-center max-w-4xl reveal">
-    <h2 data-i18n="soft_title"></h2>
-    <p data-i18n="soft_text"></p>
-  </div>
-</section>
+  <section>
+    <div class="text-center max-w-4xl reveal">
+      <h2 data-i18n="soft_title"></h2>
+      <p data-i18n="soft_text"></p>
+    </div>
+  </section>
 
-<section class="dark-section">
-  <div class="text-center max-w-4xl reveal">
-    <h2 data-i18n="sec_title"></h2>
-    <p data-i18n="sec_text"></p>
-  </div>
-</section>
+  <section class="dark-section overflow-hidden">
+    <div class="text-center max-w-4xl reveal">
+      <h2 data-i18n="sec_title"></h2>
+      <p data-i18n="sec_text"></p>
+    </div>
+  </section>
 
-<section>
-  <div class="text-center max-w-4xl reveal">
-    <h2 data-i18n="comm_title"></h2>
-    <p data-i18n="comm_text"></p>
-  </div>
-</section>
+  <section>
+    <div class="text-center max-w-4xl reveal">
+      <h2 data-i18n="comm_title"></h2>
+      <p data-i18n="comm_text"></p>
+    </div>
+  </section>
 
-<footer class="w-full flex justify-between items-center p-6 text-sm border-t border-black/10 mt-20">
+</div>
 
-  <div class="font-bold tracking-wide">
-    Global GS
-  </div>
+<footer class="w-full flex justify-between items-center p-6 text-md border-t border-black/10 mt-20">
 
-    <a href="contact.html" class="hover:opacity-70 transition" data-i18n="contact_cta"></a>
+  <img src="./assets/Logo.png" alt="logo" class="tracking-wide w-[15%] lg:w-[5%]">
+
+    <a href="contact.html" class="hover:opacity-70 transition border border-black/10 rounded-2xl p-1" data-i18n="contact_cta"></a>
 
 </footer>
 
