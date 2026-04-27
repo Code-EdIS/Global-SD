@@ -19,6 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     comm_title: "Comunicazione interna",
     comm_text: "Una comunicazione interna efficiente è essenziale per il funzionamento delle organizzazioni moderne. Le nostre piattaforme facilitano lo scambio di informazioni tra reparti, automatizzano la distribuzione dei dati e riducono drasticamente i tempi di coordinamento tra team differenti. Questo consente di eliminare ambiguità operative, migliorare la collaborazione e aumentare la velocità decisionale. Il risultato è un ambiente aziendale più connesso, coerente e produttivo, in cui le informazioni fluiscono in modo chiaro e strutturato.",
+    
+    maps_title: "Dove trovarci?",
+    maps_text: "> LOCATION: ROMA, ITALIA\n> STATUS: ACTIVE\n> NETWORK: STABLE",
 
     contact_cta: "contattaci",
 
@@ -52,6 +55,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     comm_title: "Internal communication",
     comm_text: "Efficient internal communication is essential for modern organizations. Our platforms streamline information exchange between departments, automate data distribution and significantly reduce coordination time across teams. This eliminates operational ambiguity, improves collaboration and increases decision-making speed. The result is a more connected, consistent and productive business environment where information flows clearly and efficiently.",
+    
+    maps_title: "Where to find us?",
+    maps_text: "> LOCATION: ROME, ITALY\n> STATUS: ACTIVE\n> NETWORK: STABLE",
 
     contact_cta: "contact us",
 
