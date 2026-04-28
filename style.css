@@ -159,7 +159,7 @@ h1, h2, p {
 section h1,
 section h2,
 section p {
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(10px);
   background: rgba(230, 230, 230, 0.35);
   padding: 6px 10px;
   border-radius: 10%;

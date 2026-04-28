@@ -34,7 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
     contact_gmail_business: "Apri Gmail per richiesta commerciale",
 
     contact_phone_title: "Contatto telefonico",
-    contact_phone_text: "Il contatto telefonico è disponibile per comunicazioni dirette, richieste urgenti o confronti rapidi con il nostro team. Rispondiamo durante gli orari lavorativi per garantire supporto immediato e una gestione efficiente delle richieste più sensibili."
+    contact_phone_text: "Il contatto telefonico è disponibile per comunicazioni dirette, richieste urgenti o confronti rapidi con il nostro team. Rispondiamo durante gli orari lavorativi per garantire supporto immediato e una gestione efficiente delle richieste più sensibili.",
+    p_iva: "P.Iva: 11120440968"
   },
 
   en: {
@@ -70,7 +71,8 @@ document.addEventListener("DOMContentLoaded", () => {
     contact_gmail_business: "Open Gmail for business inquiries",
 
     contact_phone_title: "Phone contact",
-    contact_phone_text: "Phone support is available for direct communication, urgent requests or quick discussions with our team. We respond during working hours to ensure immediate assistance and efficient handling of time-sensitive matters."
+    contact_phone_text: "Phone support is available for direct communication, urgent requests or quick discussions with our team. We respond during working hours to ensure immediate assistance and efficient handling of time-sensitive matters.",
+    p_iva: "VAT Number: IT11120440968",
   }
 };
   
